@@ -1,0 +1,468 @@
+/* =============== Common CSS Start From Here =============== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,li{
+    margin: 0;
+    padding: 0;
+}
+
+image{
+    vertical-align: middle;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+:root{
+    --font: 'Open Sans', sans-serif;
+    --textPrimary: #fff;
+
+}
+/* =============== Common CSS End Here =============== */
+
+
+/* =============== Header CSS Start From Here =============== */
+#top_header{
+    background-image: url(../images/header_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
+#top_header .header_top_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+}
+
+#top_header .header_top_main .header_menu ul{ 
+    display: flex;
+    column-gap: 60px;
+}
+
+#top_header .header_top_main .header_menu ul li a{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+#top_header .header_top_main .header_menu ul li a:hover{
+    color: #000;
+}
+
+#top_header .header_text{
+    margin-top: 300px;
+}
+
+#top_header .header_text p{
+    color: #FFC178;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+
+#top_header .header_text h3 span{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: capitalize;
+    display: block;
+}
+
+#top_header .header_text h3{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+/* =============== Header CSS End Here =============== */
+
+
+/* =============== Nusa CSS Start From Here =============== */
+#nusa{
+    padding-top: 250px;
+    background: #000;
+}
+
+#nusa .nusa_main{
+    display: flex;
+    column-gap: 23px;
+}
+
+#nusa .nusa_main .nusa_right_text{
+    margin-top: 45px;
+}
+
+#nusa .nusa_main .nusa_right_text p{
+    color: #FBD784;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+#nusa .nusa_main .nusa_right_text h3{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+#nusa .nusa_main .nusa_right_text h2{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom: 66px;
+}
+
+#nusa .nusa_main .nusa_right_text a{
+    color: #FBD784;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#nusa .nusa_main .nusa_right_text a:hover{
+    color: var(--textPrimary);
+}
+/* =============== Nusa CSS End Here =============== */
+
+
+/* =============== Bromo CSS Start From Here =============== */
+#bromo{
+    padding-top: 250px;
+    background: #000;
+}
+
+#bromo .main_image{
+    background-image: url(../images/third.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+}
+
+#bromo .main_image .bromo_text{
+    text-align: center;
+    position: absolute;
+    top: 96%;
+    transform: translateY(-96%);
+    -webkit-transform: translateY(-96%);
+    -moz-transform: translateY(-96%);
+    -ms-transform: translateY(-96%);
+    -o-transform: translateY(-96%);
+}
+
+#bromo .main_image .bromo_text p{
+    color: #FBD784;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+#bromo .main_image .bromo_text h3{
+    color: var(--textPrimary);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+}
+
+#bromo .main_image .bromo_text h2{
+    color: var(--textPrimary);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding: 0 204px;
+}
+
+#bromo .main_image .bromo_text a{
+    color: #FBD784;
+    font-family: var(--textPrimary);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+}
+/* =============== Bromo CSS End Here =============== */
+
+
+/* =============== Culture CSS Start From Here =============== */
+#culture{
+    padding-top: 250px;
+    background: #000;
+}
+
+#culture .culture_main{
+    display: flex;
+    column-gap: 37px;
+}
+
+#culture .culture_main .culture_text{
+    margin-top: 153px;
+}
+
+#culture .culture_main .culture_text p{
+    color: #FBD784;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+
+#culture .culture_main .culture_text h3{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+
+#culture .culture_main .culture_text h2{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom: 47px;
+}
+
+#culture .culture_main .culture_text a{
+    color: #FBD784;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+#culture .culture_main .culture_text a:hover{
+    color: var(--textPrimary);
+}
+/* =============== Culture CSS End Here =============== */
+
+
+/* =============== footer CSS Start From Here =============== */
+#footer{
+    padding-top: 200px;
+    background: #000;
+}
+
+#footer .footer_top_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+#footer .footer_top_main .footer_right{
+    display: flex;
+    column-gap: 20px;
+    color: var(--textPrimary);
+    align-items: center;
+}   
+
+#footer .footer_top_main .footer_right p{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+
+#footer .footer_top_main .footer_right a{
+    display: inline-block;
+    background: #FFA343;
+    color: #000;
+    padding: 17px 45px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: var(--font);
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+#footer .footer_top_main .footer_right a:hover{
+    background: #854500;
+    color: var(--textPrimary);
+}
+
+#footer .footer_second_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .footer_second_main .footer_left_text h3{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    padding-bottom: 49px;
+}
+
+#footer .footer_second_main .footer_left_text p{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+    padding-bottom: 34px;
+}
+
+#footer .footer_second_main .footer_left_text .social_icon a i{
+    color: var(--textPrimary);
+    font-size: 25px;
+    margin-right: 28px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+#footer .footer_second_main .footer_left_text .social_icon a:nth-child(1) i:hover{
+    color: #0866FF;
+}
+
+#footer .footer_second_main .footer_left_text .social_icon a:nth-child(2) i:hover{
+    color: #00acee;
+}
+
+#footer .footer_second_main .footer_left_text .social_icon a:nth-child(3) i:hover{
+    color: rgb(250,126,30);
+}
+
+#footer .footer_second_main .footer_right_menu{
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+
+#footer .footer_second_main .footer_right_menu .service:last-child{
+    align-self: start;
+}
+
+#footer .footer_second_main .footer_right_menu .service h3{
+    color: #FFD1A0;
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.232px;
+    text-transform: capitalize;
+    padding-bottom: 11px;
+}
+
+#footer .footer_second_main .footer_right_menu .service ul li{
+    padding-bottom: 18px;
+}
+
+#footer .footer_second_main .footer_right_menu .service ul li a{
+    color: var(--textPrimary);
+    font-family: var(--font);
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+#footer .footer_second_main .footer_right_menu .service ul li a:hover{
+    color: #FFD1A0;
+}
+
+#footer .copyright{
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+#footer .copyright h3 {
+    color: var(--textPrimary);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+/* =============== footer CSS End Here =============== */
